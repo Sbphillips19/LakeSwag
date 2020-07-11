@@ -1,0 +1,73 @@
+// Global styling for this template
+body {
+    overflow-x: hidden;
+}
+
+p {
+    line-height: 1.75;
+}
+
+.page-section {
+    // padding: 6rem 0;
+    padding-bottom: 20px;
+    h2.section-heading {
+        font-size: 2.5rem;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+    h3.section-subheading {
+        font-size: 1rem;
+        font-weight: 400;
+        font-style: italic;
+        font-family: $subheadings-font-family;
+        margin-bottom: 4rem;
+    }
+}
+
+.bg-light {
+    background-color: #d5d8dc !important;
+}
+
+.triangle {
+    // padding-top: 30px;
+    // opacity: 0;
+    // background-color: white;
+    margin-bottom: -1px;
+}
+
+.triangleWhite {
+    padding-bottom: 6rem;
+    // https://codepen.io/sosuke/pen/Pjoqqp
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(345deg) brightness(99%) contrast(102%);
+}
+
+.triangleGrey {
+    padding-bottom: 6rem;
+    filter: invert(97%) sepia(5%) saturate(304%) hue-rotate(182deg) brightness(92%) contrast(86%);
+}
+
+@include media-breakpoint-up(md) {
+    section {
+        // padding: 9rem 0;
+    }
+}
+
+// Highlight color customization
+
+::-moz-selection {
+    background: $primary;
+    text-shadow: none;
+}
+
+::selection {
+    background: $primary;
+    text-shadow: none;
+}
+
+img::selection {
+    background: transparent;
+}
+
+img::-moz-selection {
+    background: transparent;
+}

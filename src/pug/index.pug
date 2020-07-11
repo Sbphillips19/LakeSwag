@@ -1,0 +1,251 @@
+doctype html
+html(lang='en')
+
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='')
+        meta(name='author', content='')
+
+        title Lake Swag
+
+        link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
+
+        // Font Awesome icons (free version)
+        script(src='https://use.fontawesome.com/releases/v5.12.1/js/all.js', crossorigin='anonymous')
+
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Montserrat:400,700', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700', rel='stylesheet', type='text/css')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='css/styles.css', rel='stylesheet')
+
+    body#page-top
+
+        // Navigation
+        nav#mainNav.navbar.navbar-expand-lg.navbar-dark.fixed-top
+            .container
+                a.navbar-brand.js-scroll-trigger(href='#page-top')
+                    img(src='assets/img/lakeswag.png')
+                button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+                    | Menu
+                    i.fas.fa-bars.ml-1
+                #navbarResponsive.collapse.navbar-collapse
+                    ul.navbar-nav.text-uppercase.ml-auto
+                        li.nav-item
+                            a.nav-link.js-scroll-trigger(href='#services') Services
+                        li.nav-item
+                            a.nav-link.js-scroll-trigger(href='#portfolio') Portfolio
+                        li.nav-item
+                            a.nav-link.js-scroll-trigger(href='#team') Team
+                        li.nav-item
+                            a.nav-link.js-scroll-trigger(href='#gallery') Gallery
+                        //- li.nav-item
+                            a.nav-link.js-scroll-trigger(href='#contact') Contact
+        // Masthead
+        header.masthead
+            .container
+                .masthead-subheading LakeSwag
+                .heading-container
+                    .masthead-heading Merchandising Agency Specializing in Design and Distribution
+                a.btn.btn-primary.btn-xl.text-uppercase.js-scroll-trigger(href='#services') Tell Me More
+            img.triangle(src='assets/svg/triangleClear.svg')
+        // Services
+        section#services.page-section
+            .container
+                .text-center
+                    h2.section-heading.text-uppercase.padding-top Products We Offer
+                    h3.section-subheading.text-muted Currently looking into additional products
+                .row.text-center
+                    .col-md-6
+                        span.fa-stack.fa-4x
+                            i.fas.fa-circle.fa-stack-2x.text-primary
+                            i.fas.fa-tshirt.fa-stack-1x.fa-inverse
+                        h4.my-3 Clothing
+                        p.text-muted
+                            | We create custom shirts tailored to your needs.
+                        p.text-muted
+                            | Tshirts
+                        p.text-muted 
+                            | Crewnecks 
+                        p.text-muted
+                            | Hoodies
+                    .col-md-6
+                        
+                        span.fa-stack.fa-4x
+                            i.fas.fa-circle.fa-stack-2x.text-primary
+                            i.fas.fa-hat-cowboy.fa-stack-1x.fa-inverse
+                        h4.my-3 Hats
+                        p.text-muted
+                            | Hats of your favorite lake!
+                        p.text-muted
+                            | Trucker Hats 
+                        p.text-muted
+                            | Snapbacks
+                        p.text-muted 
+                            | Fitted
+        
+        // Portfolio Grid
+        section#portfolio.page-section.bg-light
+            img.triangleWhite(src='assets/svg/triangle.svg')
+            .container
+                .text-center
+                    h2.section-heading.text-uppercase Portfolio
+                    h3.section-subheading.text-muted Some of the companies LakeSwag has produced apparel for
+                .row
+                    .col-lg-4.col-sm-6.mb-4
+                        .portfolio-item
+                            a.portfolio-link(data-toggle='modal', href='#portfolioModal1')
+                                .portfolio-hover
+                                    .portfolio-hover-content
+                                        i.fas.fa-plus.fa-3x
+                                img.img-fluid(src='assets/img/blackshirt2.png', alt='silvercryst')
+                            .portfolio-caption
+                                .portfolio-caption-heading Silvercryst
+                                .portfolio-caption-subheading.text-muted Restaurant Apparel
+                .row
+                    .col-lg-4.col-sm-6.mb-4
+                        .portfolio-item
+                            a.portfolio-link(data-toggle='modal', href='#portfolioModal2')
+                                .portfolio-hover
+                                    .portfolio-hover-content
+                                        i.fas.fa-plus.fa-3x
+                                img.img-fluid(src='assets/img/skibudsshirts.jpg', alt='')
+                            .portfolio-caption
+                                .portfolio-caption-heading SkiBuds
+                                .portfolio-caption-subheading.text-muted App apparel
+
+        // Team
+        section#team.page-section
+            img.triangleGrey(src='assets/svg/triangle.svg')
+            .container
+                .text-center
+                    h2.section-heading.text-uppercase Meet Team LakeSwag
+                    h3.section-subheading.text-muted Motivated and ready to produce apparel to help you remember your favorite times at the lake
+                .row
+                    .col-lg-4
+                        .team-member
+                            img.mx-auto.rounded-circle(src='assets/img/team/hendricks.jpg', alt='hendricks')
+                            h4 Andrew Hendricks
+                            p.text-muted Creater/ CEO
+                            a.btn.btn-dark.btn-social.mx-2(href='https://www.facebook.com/andrew.hendrix.75')
+                                i.fab.fa-facebook-f
+                            a.btn.btn-dark.btn-social.mx-2(href='https://www.linkedin.com/in/andrew-hendricks-5a03b157/')
+                                i.fab.fa-linkedin-in
+                    .col-lg-4
+                        .team-member
+                            img.mx-auto.rounded-circle(src='assets/img/team/phillips.jpg', alt='phillips')
+                            h4 Stephen Phillips
+                            p.text-muted Creater/ CEO
+                            a.btn.btn-dark.btn-social.mx-2(href='https://www.facebook.com/sbphillips19/')
+                                i.fab.fa-facebook-f
+                            a.btn.btn-dark.btn-social.mx-2(href='https://www.linkedin.com/in/stephen-b-phillips/')
+                                i.fab.fa-linkedin-in
+                .row
+                    .col-lg-8.mx-auto.text-center
+                        p.large.text-muted
+                            | Growing up on Big Silver Lake, Andrew and Stephen have a love for the outdoors and spending as much quality time on the lake
+                            | UWM and UW Graduates continuing to further their education
+        // Gallery
+        section#gallery.page-section.bg-light
+            img.triangleWhite(src='assets/svg/triangle.svg')
+            .container
+                .text-center
+                    h2.section-heading.text-uppercase Gallery of our work
+            div.carousel
+              div.carousel__body
+                div.carousel__prev
+                  i.fas.fa-angle-left
+                div.carousel__next
+                  i.fas.fa-angle-right
+                div.carousel__slider
+                  - items = ['assets/img/blackshirt2.png', 'assets/img/skibudsflags.jpg', 'assets/img/skibudshats.jpg', 'assets/img/skibudsshirts.jpg'];
+                  each val1, index in items
+                    div.carousel__slider__item
+                      div.item__3d-frame
+                          div.item__3d-frame__box.item__3d-frame__box--front
+                            img.carouselImg(src=val1)
+                          div.item__3d-frame__box.item__3d-frame__box--left
+                          div.item__3d-frame__box.item__3d-frame__box--right 
+
+        // Footer
+        footer.footer.py-4
+            .container
+                .row.align-items-center
+                    .col-lg-4.text-lg-left
+                        | Copyright © LakeSwag 2020
+                    .col-lg-4.my-3.my-lg-0
+                        a.btn.btn-dark.btn-social.mx-2(href='https://www.instagram.com/lake.swag/')
+                            i.fab.fa-instagram
+
+        // Portfolio Modals
+        // Modal 1
+        #portfolioModal1.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+            .modal-dialog
+                .modal-content
+                    .close-modal(data-dismiss='modal')
+                        img(src="assets/img/close-icon.svg")
+                    .container
+                        .row.justify-content-center
+                            .col-lg-8
+                                .modal-body
+                                    // Project Details Go Here
+                                    h2.text-uppercase Silvercryst
+                                    p.item-intro.text-muted Helped create shirts for silvercrest
+                                    img.img-fluid.d-block.mx-auto(src='assets/img/silvercryst.png', alt='silvercryst')
+                                    p
+                                        | • Sold over 200 tshirts to Silvercryst<br/>
+                                        | • First batch of 100 was over 75% sold in the first week<br/>
+                                        | • Numerous social media posts<br/>
+                                        | • Created new and hip designs<br/>
+                                    ul.list-inline
+                                        li Date: June 2019 - Present
+                                        li Company: Silvercryst
+                                        li Category: Restaurant Apparel
+                                    button.btn.btn-primary(data-dismiss='modal', type='button')
+                                        i.fas.fa-times.mr-1
+                                        | Close Project
+        // Modal 1
+        #portfolioModal2.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+            .modal-dialog
+                .modal-content
+                    .close-modal(data-dismiss='modal')
+                        img(src="assets/img/close-icon.svg")
+                    .container
+                        .row.justify-content-center
+                            .col-lg-8
+                                .modal-body
+                                    // Project Details Go Here
+                                    h2.text-uppercase SkiBuds
+                                    p.item-intro.text-muted Provided apparel for stephens app to find skiers and snowboarders to ride with
+                                    img.img-fluid.d-block.mx-auto(src='assets/img/skibudshats.jpg', alt='hats')
+                                    p
+                                        | • Ordered and distributed over 130,000 (70,000 for next season) stickers while testing from over 5 suppliers<br/>
+                                        | • Produced over 500 shirts, getting samples from over 10 suppliers<br/>
+                                        | • Have produced hats from several suppliers (over 200 hats)<br/>
+                                        | • Have produced many flags<br/>
+                                    ul.list-inline
+                                        li Date: December 2019 - Present
+                                        li Company: SkiBuds
+                                        li Category: Corporate Apparel
+                                    button.btn.btn-primary(data-dismiss='modal', type='button')
+                                        i.fas.fa-times.mr-1
+                                        | Close Project
+        
+
+        // Bootstrap core JS
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js')
+        script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js')
+
+        // Third party plugin JS
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js')
+
+        // Contact form JS
+        script(src='assets/mail/jqBootstrapValidation.js')
+        script(src='assets/mail/contact_me.js')
+
+        // Core theme JS
+        script(src='js/scripts.js')
