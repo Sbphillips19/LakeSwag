@@ -60,13 +60,49 @@ html(lang='en')
             .container
                 .text-center
                     h2.section-heading.text-uppercase Silver Lake Apparel
+                    img.img-fluid.boatpic(src='assets/img/silverlakeshirt.png', alt='shirt')
                     h3.section-subheading.top-text.text-muted Please join facebook event via link below or email LakeSwagWI@gmail.com
                     h3.section-subheading.top-text.text-muted Supplies based off interest (let us know sizes and quantities)
+                    h3.section-subheading.top-text.text-muted More designs will be coming soon (8/1/2020 at the latest) and will be posted in the facebook group.
+                    img.img-fluid.boatpic(src='assets/img/silverlakeboat.jpg', alt='boat')
+                    h3.section-subheading.top-text.text-muted We also offer arial photography.   Will be posting samples in the group.
                 .row
                     a.btn.btn-secondary.btn-xl.text-uppercase(href='https://www.facebook.com/events/733626550543229/?acontext=%7B%22event_action_history%22%3A[%7B%22mechanism%22%3A%22search_results%22%2C%22surface%22%3A%22search%22%7D]%7D') Facebook Link
-        // Services
-        section#services.page-section.bg-light
+        
+        
+        // Portfolio Grid
+        section#portfolio.bg-light
             img.triangleWhite(src='assets/svg/triangle.svg')
+            .container
+                .text-center
+                    h2.section-heading.text-uppercase Portfolio
+                    h3.section-subheading.text-muted Some of the companies LakeSwag has produced apparel for (click to see more)
+                .row
+                    .col-lg-4.col-sm-6.mb-4
+                        .portfolio-item
+                            a.portfolio-link(data-toggle='modal', href='#portfolioModal1')
+                                .portfolio-hover
+                                    .portfolio-hover-content
+                                        i.fas.fa-plus.fa-3x
+                                img.img-fluid(src='assets/img/blackshirt2.png', alt='silvercryst')
+                            .portfolio-caption
+                                .portfolio-caption-heading Silvercryst
+                                .portfolio-caption-subheading.text-muted Restaurant Apparel
+                .row
+                    .col-lg-4.col-sm-6.mb-4
+                        .portfolio-item
+                            a.portfolio-link(data-toggle='modal', href='#portfolioModal2')
+                                .portfolio-hover
+                                    .portfolio-hover-content
+                                        i.fas.fa-plus.fa-3x
+                                img.img-fluid(src='assets/img/skibudsshirts.jpg', alt='')
+                            .portfolio-caption
+                                .portfolio-caption-heading SkiBuds
+                                .portfolio-caption-subheading.text-muted App apparel
+
+        // Services
+        section#services.page-section
+            img.triangleGrey(src='assets/svg/triangle.svg')
             .container
                 .text-center
                     h2.section-heading.text-uppercase.padding-top Products We Offer
@@ -99,36 +135,6 @@ html(lang='en')
                             | Snapbacks
                         p.text-muted 
                             | Fitted
-        
-        // Portfolio Grid
-        section#portfolio.page-section
-            img.triangleGrey(src='assets/svg/triangle.svg')
-            .container
-                .text-center
-                    h2.section-heading.text-uppercase Portfolio
-                    h3.section-subheading.text-muted Some of the companies LakeSwag has produced apparel for (click to see more)
-                .row
-                    .col-lg-4.col-sm-6.mb-4
-                        .portfolio-item
-                            a.portfolio-link(data-toggle='modal', href='#portfolioModal1')
-                                .portfolio-hover
-                                    .portfolio-hover-content
-                                        i.fas.fa-plus.fa-3x
-                                img.img-fluid(src='assets/img/blackshirt2.png', alt='silvercryst')
-                            .portfolio-caption
-                                .portfolio-caption-heading Silvercryst
-                                .portfolio-caption-subheading.text-muted Restaurant Apparel
-                .row
-                    .col-lg-4.col-sm-6.mb-4
-                        .portfolio-item
-                            a.portfolio-link(data-toggle='modal', href='#portfolioModal2')
-                                .portfolio-hover
-                                    .portfolio-hover-content
-                                        i.fas.fa-plus.fa-3x
-                                img.img-fluid(src='assets/img/skibudsshirts.jpg', alt='')
-                            .portfolio-caption
-                                .portfolio-caption-heading SkiBuds
-                                .portfolio-caption-subheading.text-muted App apparel
 
         // Team
         section#team.page-section.bg-light
@@ -151,7 +157,7 @@ html(lang='en')
                         .team-member
                             img.mx-auto.rounded-circle(src='assets/img/team/phillips.jpg', alt='phillips')
                             h4 Stephen Phillips
-                            p.text-muted Creater/ CEO
+                            p.text-muted Creator/ CTO
                             a.btn.btn-dark.btn-social.mx-2(href='https://www.facebook.com/sbphillips19/')
                                 i.fab.fa-facebook-f
                             a.btn.btn-dark.btn-social.mx-2(href='https://www.linkedin.com/in/stephen-b-phillips/')
@@ -159,8 +165,10 @@ html(lang='en')
                 .row
                     .col-lg-8.mx-auto.text-center
                         p.large.text-muted
-                            | Growing up on Big Silver Lake, Andrew and Stephen have a love for the outdoors and spending as much quality time on the lake
-                            | UWM and UW Graduates continuing to further their education
+                            | Lake Swag is a marketing and merchandising company driven to deliver top quality apparel.
+                            | Our company was started around a campfire on Silver Lake in Wautoma, WI.
+                            | With families that have been coming up to Silver Lake for over 100 years, we wanted to create apparel that reminds us of our time on the lake.
+
         // Gallery
         section#gallery.page-section
             img.triangleGrey(src='assets/svg/triangle.svg')
