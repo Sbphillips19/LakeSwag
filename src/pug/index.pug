@@ -36,9 +36,9 @@ html(lang='en')
                 #navbarResponsive.collapse.navbar-collapse
                     ul.navbar-nav.text-uppercase.ml-auto
                         li.nav-item
-                            a.nav-link.js-scroll-trigger(href='#services') Services
-                        li.nav-item
                             a.nav-link.js-scroll-trigger(href='#portfolio') Portfolio
+                        li.nav-item
+                            a.nav-link.js-scroll-trigger(href='#services') Services
                         li.nav-item
                             a.nav-link.js-scroll-trigger(href='#team') Team
                         li.nav-item
@@ -53,7 +53,7 @@ html(lang='en')
                     img.logo(src='assets/img/lakeswag3.png')
                 //- .heading-container
                     .masthead-heading Merchandising Agency Specializing in Design and Distribution
-                a.btn.btn-primary.btn-xl.text-uppercase.js-scroll-trigger(href='#services') Tell Me More
+                a.btn.btn-primary.btn-xl.text-uppercase.js-scroll-trigger(href='#portfolio') Tell Me More
             img.triangle(src='assets/svg/triangleClear.svg')
         // Coming Soon
         section#silverLake.page-section
@@ -63,7 +63,7 @@ html(lang='en')
                     img.img-fluid.boatpic(src='assets/img/silverlakeshirt.png', alt='shirt')
                     h3.section-subheading.top-text.text-muted Please join facebook event via link below or email LakeSwagWI@gmail.com
                     h3.section-subheading.top-text.text-muted Supplies based off interest (let us know sizes and quantities)
-                    h3.section-subheading.top-text.text-muted More designs will be coming soon (8/1/2020 at the latest) and will be posted in the facebook group.
+                    h3.section-subheading.top-text.text-muted More designs will be coming soon and will be posted in the facebook group.  Estimated production being done is end of August.
                     img.img-fluid.boatpic(src='assets/img/silverlakeboat.jpg', alt='boat')
                     h3.section-subheading.top-text.text-muted We also offer arial photography.   Will be posting samples in the group.
                 .row
@@ -105,9 +105,12 @@ html(lang='en')
             img.triangleGrey(src='assets/svg/triangle.svg')
             .container
                 .text-center
-                    h2.section-heading.text-uppercase.padding-top Products We Offer
-                    h3.section-subheading.text-muted Currently looking into additional products
-                .row.text-center
+                    h2.section-heading.text-uppercase Why LakeSwag?
+                    h3.section-subheading2.text-muted We have years of experience in graphic design.  We can help your lake or company revamp your logo and produce hip or vintage apparel
+                    h3.section-subheading2.text-muted Our supply chain has been vetted.  We have worked very hard to be able to get you high quality apparel at the lowest prices.
+                    h3.section-subheading2.text-muted Spending our whole lives on the lake, we understand the lake culture and are here to help bring our passion to produce the best gear.
+                    h3.section-subheading2.text-muted Here is some of our current offerings, although we are always expanding!
+                .row.text-center.padding-top
                     .col-md-6
                         span.fa-stack.fa-4x
                             i.fas.fa-circle.fa-stack-2x.text-primary
@@ -182,7 +185,7 @@ html(lang='en')
                 div.carousel__next
                   i.fas.fa-angle-right
                 div.carousel__slider
-                  - items = ['assets/img/blackshirt2.png', 'assets/img/silvercrystgreen.png', 'assets/img/skibudsflags.jpg', 'assets/img/skibudshats.jpg', 'assets/img/skibudsshirts.jpg'];
+                  - items = ['assets/img/blackshirt2.png', 'assets/img/silvercrystgreen.png', 'assets/img/skibudsflags.jpg', 'assets/img/skibudshats.jpg', 'assets/img/skibudsshirts.jpg', 'assets/img/silver-lake-hoodie.png', 'assets/img/lake-swag-hoodie.png', 'assets/img/silver-lake-crewneck.png', 'assets/img/silver-lake-shirt.png', 'assets/img/silvercryst-hoodie.png', 'assets/img/silvercryst-hoodie-2.png', 'assets/img/silver-lake-shirt-green.png', 'assets/img/silver-lake-shirt-v-neck.png'];
                   each val1, index in items
                     div.carousel__slider__item
                       div.item__3d-frame
@@ -217,7 +220,7 @@ html(lang='en')
                                     p.item-intro.text-muted Helped create shirts for silvercrest
                                     img.img-fluid.d-block.mx-auto(src='assets/img/silvercryst.png', alt='silvercryst')
                                     p
-                                        | • Sold over 200 tshirts to Silvercryst<br/>
+                                        | • Sold over 300 tshirts to Silvercryst<br/>
                                         | • First batch of 100 was over 75% sold in the first week<br/>
                                         | • Numerous social media posts<br/>
                                         | • Created new and hip designs<br/>
